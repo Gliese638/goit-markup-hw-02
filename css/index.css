@@ -1,0 +1,73 @@
+.hero{
+background-color: rgba(0, 0, 0, 0.15);
+background-size: cover;
+}
+.h1{/*Эффективные решения для вашего бизнеса*/
+font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+/*& button-main*/
+.button-hero{
+position: relative;
+align-self: center;}
+
+/*section1*/
+.slogan-title{/*внимание к деталям и т.д.*/
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--primery-text-color);
+text-transform: uppercase;
+}
+
+.slogan-title-content{
+font-weight: normal;
+line-height: 1.71;
+color: #757575;
+}
+
+/*section2*/
+.services-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+figcaption{
+text-align: center;
+letter-spacing: 0.03em;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.team-name{/*Імена*/
+font-weight: 500;
+color: var(--primery-text-color);
+}
+
+.team-title{/*Посада*/
+font-weight: 400;
+color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+

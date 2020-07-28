@@ -1,0 +1,128 @@
+:root{
+    --primery-text-color:#212121;
+    --hover-text-color: #2196F3;
+}
+
+body{
+font-family: Roboto;
+font-style: normal;
+padding: 0;
+margin: 0;
+}
+
+nav .current-page{
+color: var(--hover-text-color);
+}
+    
+.list-style a{/*скидання стилю посилань*/
+text-decoration: none;
+}
+.list-style{/*скидання стилю посилань*/
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.title-main{/*стиль основних заголовків*/
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primery-text-color);
+}
+    
+.Web{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;    
+letter-spacing: 0.03em;
+color: var(--hover-text-color);
+}
+.Studio{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;    
+letter-spacing: 0.03em;
+color: var(--primery-text-color);
+}
+.Studio-footer{/*Білий колір для footer*/
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;    
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+    
+.nav-list-menu{/*Стилі для Контакти/Портфоліо/Контакти*/
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+}
+    
+.nav-list-menu:hover,
+.nav-list-menu:focus{
+color: var(--hover-text-color);
+}
+    
+.header-contactus{/*Стилі номер/пошта в Header*/
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+    
+.header-contactus:hover,
+.header-contactus:focus{
+color: var(--hover-text-color);
+}
+
+/*footer*/
+footer{/*Тимчасовий бекграунд*/
+background-color: #2F303A;
+}
+   
+address{/*Без нього посилання чомусь були курсивом*/
+font-style: normal;
+}
+    
+.list-style2{/*номер/email в footer*/
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+letter-spacing: 0.03em;
+}
+    
+.map-list{/*адреса*/
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+   
+.footerlink-title{/*Подпишитесь на рассылку*/
+color: #FFFFFF;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.button-main{
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+text-align: center;
+color: #ffffff;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}

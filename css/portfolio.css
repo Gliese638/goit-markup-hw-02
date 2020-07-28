@@ -1,0 +1,33 @@
+h1{
+display:none
+}
+
+.button-secondary{
+width: 128px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button-secondary:hover,
+.button-secondary:focus{
+color: #ffffff;
+background: var(--hover-text-color);
+}
+
+.plist-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;      
+letter-spacing: 0.06em;
+color: var(--primery-text-color);
+}
+
+.plist-subtitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
